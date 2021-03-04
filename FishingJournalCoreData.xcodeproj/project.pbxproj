@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE08F01225F05E8500B60C11 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08F01125F05E8500B60C11 /* MapDetailViewController.swift */; };
+		DE24A46225E5F49A0032CF4B /* CatchListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24A46125E5F49A0032CF4B /* CatchListTableViewController.swift */; };
+		DE24A46525E5F4F20032CF4B /* CatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24A46425E5F4F20032CF4B /* CatchDetailViewController.swift */; };
+		DE24A46925E5F5BB0032CF4B /* CatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24A46825E5F5BB0032CF4B /* CatchTableViewCell.swift */; };
+		DE24A46D25E5F7BF0032CF4B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24A46C25E5F7BF0032CF4B /* CoreDataStack.swift */; };
+		DE24A47025E5F83F0032CF4B /* Catch+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24A46F25E5F83F0032CF4B /* Catch+Convenience.swift */; };
+		DE24A47325E5F9A10032CF4B /* CatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24A47225E5F9A10032CF4B /* CatchController.swift */; };
+		DE583B9325ED6AFE00F786C8 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE583B9225ED6AFE00F786C8 /* DataBaseHelper.swift */; };
+		DE583B9625ED910A00F786C8 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE583B9525ED910A00F786C8 /* DateFormatter.swift */; };
+		DE7BCCCB25E72FFD00E7EE30 /* CatchModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7BCCCA25E72FFD00E7EE30 /* CatchModalViewController.swift */; };
+		DE7BCCE025E9891800E7EE30 /* PhotoPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7BCCDE25E9891700E7EE30 /* PhotoPicker.storyboard */; };
+		DE7BCCE425E98A7800E7EE30 /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7BCCE325E98A7800E7EE30 /* PhotoPickerViewController.swift */; };
+		DEBC288925E5B0D500793ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC288825E5B0D500793ED5 /* AppDelegate.swift */; };
+		DEBC288B25E5B0D500793ED5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC288A25E5B0D500793ED5 /* SceneDelegate.swift */; };
+		DEBC289025E5B0D500793ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBC288E25E5B0D500793ED5 /* Main.storyboard */; };
+		DEBC289325E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEBC289125E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodeld */; };
+		DEBC289525E5B0D900793ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBC289425E5B0D900793ED5 /* Assets.xcassets */; };
+		DEBC289825E5B0D900793ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBC289625E5B0D900793ED5 /* LaunchScreen.storyboard */; };
+		DEBFCD4425EEFE5E00802E54 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBFCD4325EEFE5E00802E54 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE08F01125F05E8500B60C11 /* MapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
+		DE24A46125E5F49A0032CF4B /* CatchListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchListTableViewController.swift; sourceTree = "<group>"; };
+		DE24A46425E5F4F20032CF4B /* CatchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchDetailViewController.swift; sourceTree = "<group>"; };
+		DE24A46825E5F5BB0032CF4B /* CatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTableViewCell.swift; sourceTree = "<group>"; };
+		DE24A46C25E5F7BF0032CF4B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		DE24A46F25E5F83F0032CF4B /* Catch+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Catch+Convenience.swift"; sourceTree = "<group>"; };
+		DE24A47225E5F9A10032CF4B /* CatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchController.swift; sourceTree = "<group>"; };
+		DE583B9225ED6AFE00F786C8 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		DE583B9525ED910A00F786C8 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		DE7BCCCA25E72FFD00E7EE30 /* CatchModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchModalViewController.swift; sourceTree = "<group>"; };
+		DE7BCCDF25E9891700E7EE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FishingJournalCoreData/Views/Storyboards/Base.lproj/PhotoPicker.storyboard; sourceTree = "<group>"; };
+		DE7BCCE325E98A7800E7EE30 /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
+		DEBC288525E5B0D500793ED5 /* FishingJournalCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishingJournalCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBC288825E5B0D500793ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEBC288A25E5B0D500793ED5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEBC288F25E5B0D500793ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEBC289225E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishingJournalCoreData.xcdatamodel; sourceTree = "<group>"; };
+		DEBC289425E5B0D900793ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEBC289725E5B0D900793ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEBC289925E5B0D900793ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBFCD4325EEFE5E00802E54 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEBC288225E5B0D500793ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE24A46725E5F58C0032CF4B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE24A46825E5F5BB0032CF4B /* CatchTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		DE583B9125ED6A9E00F786C8 /* Helpers and Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE583B9225ED6AFE00F786C8 /* DataBaseHelper.swift */,
+				DE583B9525ED910A00F786C8 /* DateFormatter.swift */,
+			);
+			path = "Helpers and Extensions";
+			sourceTree = "<group>";
+		};
+		DEBC287C25E5B0D500793ED5 = {
+			isa = PBXGroup;
+			children = (
+				DEBC288725E5B0D500793ED5 /* FishingJournalCoreData */,
+				DEBC288625E5B0D500793ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEBC288625E5B0D500793ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC288525E5B0D500793ED5 /* FishingJournalCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEBC288725E5B0D500793ED5 /* FishingJournalCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC28A725E5B52800793ED5 /* Model Controllers */,
+				DEBC28A625E5B51300793ED5 /* View Controllers */,
+				DEBC28A425E5B49B00793ED5 /* Views */,
+				DEBC28A325E5B48F00793ED5 /* CoreData */,
+				DE583B9125ED6A9E00F786C8 /* Helpers and Extensions */,
+				DEBC28A025E5B47C00793ED5 /* Resources */,
+			);
+			path = FishingJournalCoreData;
+			sourceTree = "<group>";
+		};
+		DEBC28A025E5B47C00793ED5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC288825E5B0D500793ED5 /* AppDelegate.swift */,
+				DEBC288A25E5B0D500793ED5 /* SceneDelegate.swift */,
+				DEBC289425E5B0D900793ED5 /* Assets.xcassets */,
+				DEBC289625E5B0D900793ED5 /* LaunchScreen.storyboard */,
+				DEBC289925E5B0D900793ED5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEBC28A325E5B48F00793ED5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC289125E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodeld */,
+				DE24A46C25E5F7BF0032CF4B /* CoreDataStack.swift */,
+				DE24A46F25E5F83F0032CF4B /* Catch+Convenience.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DEBC28A425E5B49B00793ED5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE24A46725E5F58C0032CF4B /* Custom Cells */,
+				DEBC28A525E5B4A400793ED5 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEBC28A525E5B4A400793ED5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC288E25E5B0D500793ED5 /* Main.storyboard */,
+				DE7BCCDE25E9891700E7EE30 /* PhotoPicker.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DEBC28A625E5B51300793ED5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE24A46125E5F49A0032CF4B /* CatchListTableViewController.swift */,
+				DE24A46425E5F4F20032CF4B /* CatchDetailViewController.swift */,
+				DE7BCCCA25E72FFD00E7EE30 /* CatchModalViewController.swift */,
+				DE7BCCE325E98A7800E7EE30 /* PhotoPickerViewController.swift */,
+				DEBFCD4325EEFE5E00802E54 /* MapViewController.swift */,
+				DE08F01125F05E8500B60C11 /* MapDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DEBC28A725E5B52800793ED5 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE24A47225E5F9A10032CF4B /* CatchController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEBC288425E5B0D500793ED5 /* FishingJournalCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBC289C25E5B0D900793ED5 /* Build configuration list for PBXNativeTarget "FishingJournalCoreData" */;
+			buildPhases = (
+				DEBC288125E5B0D500793ED5 /* Sources */,
+				DEBC288225E5B0D500793ED5 /* Frameworks */,
+				DEBC288325E5B0D500793ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishingJournalCoreData;
+			productName = FishingJournalCoreData;
+			productReference = DEBC288525E5B0D500793ED5 /* FishingJournalCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEBC287D25E5B0D500793ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DEBC288425E5B0D500793ED5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DEBC288025E5B0D500793ED5 /* Build configuration list for PBXProject "FishingJournalCoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEBC287C25E5B0D500793ED5;
+			productRefGroup = DEBC288625E5B0D500793ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEBC288425E5B0D500793ED5 /* FishingJournalCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEBC288325E5B0D500793ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBC289825E5B0D900793ED5 /* LaunchScreen.storyboard in Resources */,
+				DE7BCCE025E9891800E7EE30 /* PhotoPicker.storyboard in Resources */,
+				DEBC289525E5B0D900793ED5 /* Assets.xcassets in Resources */,
+				DEBC289025E5B0D500793ED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEBC288125E5B0D500793ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE24A46D25E5F7BF0032CF4B /* CoreDataStack.swift in Sources */,
+				DEBC289325E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodeld in Sources */,
+				DEBC288925E5B0D500793ED5 /* AppDelegate.swift in Sources */,
+				DE24A46525E5F4F20032CF4B /* CatchDetailViewController.swift in Sources */,
+				DE583B9625ED910A00F786C8 /* DateFormatter.swift in Sources */,
+				DE08F01225F05E8500B60C11 /* MapDetailViewController.swift in Sources */,
+				DE583B9325ED6AFE00F786C8 /* DataBaseHelper.swift in Sources */,
+				DE24A46925E5F5BB0032CF4B /* CatchTableViewCell.swift in Sources */,
+				DE24A47325E5F9A10032CF4B /* CatchController.swift in Sources */,
+				DE7BCCCB25E72FFD00E7EE30 /* CatchModalViewController.swift in Sources */,
+				DE24A47025E5F83F0032CF4B /* Catch+Convenience.swift in Sources */,
+				DE7BCCE425E98A7800E7EE30 /* PhotoPickerViewController.swift in Sources */,
+				DEBC288B25E5B0D500793ED5 /* SceneDelegate.swift in Sources */,
+				DE24A46225E5F49A0032CF4B /* CatchListTableViewController.swift in Sources */,
+				DEBFCD4425EEFE5E00802E54 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE7BCCDE25E9891700E7EE30 /* PhotoPicker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7BCCDF25E9891700E7EE30 /* Base */,
+			);
+			name = PhotoPicker.storyboard;
+			sourceTree = "<group>";
+		};
+		DEBC288E25E5B0D500793ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEBC288F25E5B0D500793ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEBC289625E5B0D900793ED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEBC289725E5B0D900793ED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEBC289A25E5B0D900793ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEBC289B25E5B0D900793ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEBC289D25E5B0D900793ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTBMNX3CLT;
+				INFOPLIST_FILE = FishingJournalCoreData/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielVilledrouin.FishingJournalCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEBC289E25E5B0D900793ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTBMNX3CLT;
+				INFOPLIST_FILE = FishingJournalCoreData/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielVilledrouin.FishingJournalCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEBC288025E5B0D500793ED5 /* Build configuration list for PBXProject "FishingJournalCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBC289A25E5B0D900793ED5 /* Debug */,
+				DEBC289B25E5B0D900793ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBC289C25E5B0D900793ED5 /* Build configuration list for PBXNativeTarget "FishingJournalCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBC289D25E5B0D900793ED5 /* Debug */,
+				DEBC289E25E5B0D900793ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEBC289125E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEBC289225E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodel */,
+			);
+			currentVersion = DEBC289225E5B0D500793ED5 /* FishingJournalCoreData.xcdatamodel */;
+			path = FishingJournalCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEBC287D25E5B0D500793ED5 /* Project object */;
+}
